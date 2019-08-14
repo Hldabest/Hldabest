@@ -1,0 +1,152 @@
+HTML and Cascading Style Sheets (CSS)
+
+Staff Azlan Bin Abu Hassan
+Aug 12
+Using CSS in the design of HTML web pages and websites.
+
+2019 Y1 HTML and Webpages Lesson 2
+Google Docs
+
+world.jpg
+Image
+
+chemistry.jpg
+Image
+
+theme3.css
+Style Sheet
+
+theme1.css
+Style Sheet
+
+main.html
+HTML
+
+dhs.png
+Image
+
+theme4.css
+Style Sheet
+
+phtester.jpg
+Image
+
+redcab01.png
+Image
+
+processoutcome.jpg
+Image
+
+redcab02.jpg
+Image
+
+pot.jpg
+Image
+
+Cascading Style Sheets
+Google Slides
+Class comments
+
+
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+            	background-color:#FFFEFD;
+				background-image: url(chemistry.jpg);
+            	background-repeat: no-repeat;
+            	background-position:center;
+            	background-attachment:fixed;
+            	background-size: auto;
+	            	background-size:1290px 768px;
+}
+h1   {color: darkslateblue;}
+
+
+#titlename
+{
+	color:#506A83;
+}
+
+#mainheader
+{
+            	border: none;
+            	position: static;
+            	right: 0;
+            	left: 0;
+            	bottom: 0;
+            	/* background-color:#0A3EA6; */
+            	height: 300px;
+            	width: 830px;
+            	margin: 0 auto;
+				text-align: center;
+
+}
+
+#maindata
+{
+
+     float: right;
+     border: none;
+     width: 630px;
+
+	/* overflow-y:inherit; */
+
+
+}
+
+.mainclass
+{
+            	border: none;
+            	border-color:#A0F37E;
+            	width: 830px;
+            	margin: 0 auto;
+				overflow: hidden;
+
+}
+
+#sidebar
+{
+            	float: left;
+            	border: none;
+            	border-color: #C12528;
+            	/* background-color: #BDE509; */
+            	width: 200px;
+				height: 500px;
+	/* overflow-y: auto; */
+
+
+
+}
+
+#footer1
+{
+            	float: left;
+            	right: 0;
+            	bottom: 0;
+            	left: 0;
+            	width: 700;
+            	border: solid;
+            	margin: 0 auto
+}
+
+#footer2
+{
+            	float: left;
+            	position: static;
+            	right: 0;
+            	bottom: 0;
+            	left: 0;
+            	width: 830px;
+            	border: none;
+            	margin: 0 auto;
+	font-weight: bold;
+	color: darkslateblue;
+
+}
+
+
+
+theme4.css.txt
+Displaying theme3.css.txt.
